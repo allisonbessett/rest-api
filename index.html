@@ -15,32 +15,33 @@
 
   <body>
     <header>
-      <h1>Favorite Cities</h1> 
+      <h1>Favorite Books</h1> 
     </header>
     
     <div>
-     <table id="cityTable">
+     <table id="bookTable">
       <thead>
         <tr>
-          <th>City Name</th>
-          <th>Country Located</th>
+          <th>Book Title</th>
+          <th>Author</th>
         </tr>
        </thead>
        <tbody id="tBody">
        </tbody>
     </table>
-    <form>
+    <form id="buttonForm">
       <button type="button" id="addItemButton">Add Item</button>  
     </form>
   </div>
     
     <div>
-      <form id="cityForm">
-          City<input type="text" id="city">
-          Country<input type="text" id="country">
+      <form id="bookForm">
+          Book Title: <input type="text" id="book">
+          Author: <input type="text" id="author">
         <input type="submit" value="Submit" id="submit">
       </form>
     </div>
+    
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
